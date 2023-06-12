@@ -1,3 +1,25 @@
+If you are looking for compiled binaries, please visit our primary repo.
+
+
+
+This fork of QMK is maintained by 1upkeyboards to allow access to new or beta QMK firmware for 1upkeyboard keyboards.
+
+There is only one branch, and the only changes to the official QMK repo will be to keyboards/1upkeyboards. We will do our best to keep the fork updated with any changes made to the parent fork, to make sure that our firmware will continue to work with current version of QMK, regardless of whether or not a firmware has been added to the official repo.
+
+
+
+If a keyboard folder has _nopr at the end of the name that means a pull request has not been submitted or approved for that keyboard. Please remember to include _nopr in the name when building the firmware, if neccesary.
+
+For example: qmk compile -kb 1upkeyboards/super16v2_nopr -km via
+
+If a keyboard folder has _old at the end of the name, that means that folder is the current version on the offical QMK repo and there is a newer version on the 1upkeyboards/qmk_firmware repo (usually denoted by the _nopr suffix). Please remember to include _old in the name when building the firmware, if neccesary.
+
+For example: qmk compile -kb 1upkeyboards/super16v2_old -km default
+
+
+
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
