@@ -20,7 +20,7 @@
 #define I2C1_SDA_PIN        GP10
 #define I2C_DRIVER I2CD1
 #define OLED_BRIGHTNESS 128
-#define OLED_FONT_H "keyboards/1upkeyboards/1upslider8/lib/glcdfont.c"
+#define OLED_FONT_H "keyboards/1upkeyboards/1upslider8_beta/lib/glcdfont.c"
 
 
 #define SLIDER_PIN GP28
