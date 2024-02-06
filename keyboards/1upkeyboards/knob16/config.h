@@ -16,8 +16,6 @@
 
 #pragma once
 
-#include "config_common.h"
-
 // #define RGB_DI_PIN D3
 #ifdef RGB_DI_PIN
 #define RGBLED_NUM 12
